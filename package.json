@@ -49,7 +49,7 @@
     "url": "git+https://github.com/anantkrsingh/react-native-openvpn.git"
   },
   "author": "anantkrsingh <anantkrplay@gmail.com> (https://github.com/anantkrsingh)",
-  "license": "MIT",
+  "license": "GPL-2.0",
   "bugs": {
     "url": "https://github.com/anantkrsingh/react-native-openvpn/issues"
   },

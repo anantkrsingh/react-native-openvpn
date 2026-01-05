@@ -1,20 +1,13 @@
-import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from 'react-native-openvpn';
-
-const result = multiply(3, 7);
+import { NavigationContainer } from '@react-navigation/native';
+import { ServerProvider } from './context/ServerContext';
+import { RootNavigator } from './navigation/RootNavigator';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
+    <ServerProvider>
+      <NavigationContainer>
+        <RootNavigator />
+      </NavigationContainer>
+    </ServerProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

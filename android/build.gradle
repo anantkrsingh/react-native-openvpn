@@ -33,10 +33,14 @@ android {
   defaultConfig {
     minSdkVersion getExtOrIntegerDefault("minSdkVersion")
     targetSdkVersion getExtOrIntegerDefault("targetSdkVersion")
+    
+    buildConfigField "boolean", "openvpn3", "true"
+    buildConfigField "String", "FLAVOR", "\"default\""
   }
 
   buildFeatures {
     buildConfig true
+    aidl true
   }
 
   buildTypes {
@@ -60,6 +64,9 @@ android {
         "generated/java",
         "generated/jni"
       ]
+      jni.srcDirs = [] // disable ndk build
+      jniLibs.srcDir 'src/main/libs'
+      aidl.srcDirs += 'src/main/aidl'
     }
   }
 }
@@ -74,4 +81,12 @@ def kotlin_version = getExtOrDefault("kotlinVersion")
 dependencies {
   implementation "com.facebook.react:react-android"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.security:security-crypto-ktx:1.1.0-alpha07'
+
+}
+
+react {
+  jsRootDir = file("../src/")
+  libraryName = "Openvpn"
+  codegenJavaPackageName = "com.openvpn"
 }

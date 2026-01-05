@@ -30,7 +30,9 @@ const result = multiply(3, 7);
 
 ## License
 
-MIT
+GPL-2.0
+
+This library includes code from ICS OpenVPN (Copyright (c) 2012-2016 Arne Schwabe), which is distributed under the GNU General Public License version 2.
 
 ---
 
