@@ -73,7 +73,7 @@ const ServerItem: React.FC<ServerItemProps> = ({ server, isSelected, onSelect })
         <Text style={styles.flag}>{server.flag}</Text>
         <View style={styles.serverDetails}>
           <Text style={styles.serverName}>{server.name}</Text>
-          <Text style={styles.serverAddress}>{server.address}</Text>
+          {/* <Text style={styles.serverAddress}>{server.address}</Text> */}
         </View>
       </View>
       
