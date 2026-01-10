@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "OpenvpnExample.app"
-               BlueprintName = "OpenvpnExample"
-               ReferencedContainer = "container:OpenvpnExample.xcodeproj">
+               BuildableName = "BlazeVPN.app"
+               BlueprintName = "BlazeVPN"
+               ReferencedContainer = "container:BlazeVPN.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "OpenvpnExampleTests.xctest"
-               BlueprintName = "OpenvpnExampleTests"
-               ReferencedContainer = "container:OpenvpnExample.xcodeproj">
+               BuildableName = "BlazeVPNTests.xctest"
+               BlueprintName = "BlazeVPNTests"
+               ReferencedContainer = "container:BlazeVPN.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "OpenvpnExample.app"
-            BlueprintName = "OpenvpnExample"
-            ReferencedContainer = "container:OpenvpnExample.xcodeproj">
+            BuildableName = "BlazeVPN.app"
+            BlueprintName = "BlazeVPN"
+            ReferencedContainer = "container:BlazeVPN.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "OpenvpnExample.app"
-            BlueprintName = "OpenvpnExample"
-            ReferencedContainer = "container:OpenvpnExample.xcodeproj">
+            BuildableName = "BlazeVPN.app"
+            BlueprintName = "BlazeVPN"
+            ReferencedContainer = "container:BlazeVPN.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

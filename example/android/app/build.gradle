@@ -77,9 +77,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "openvpn.example"
+    namespace "com.hotshot.vpn"
     defaultConfig {
-        applicationId "openvpn.example"
+        applicationId "com.hotshot.vpn"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
